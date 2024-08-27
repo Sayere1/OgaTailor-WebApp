@@ -2,6 +2,8 @@ import { createContext, useEffect, useState } from "react";
 import { clothing_list } from "../assets/assets";
 import axios from "axios";
 
+// replce use effect
+
 export const StoreContext = createContext(null)
 
 const StoreContextProvider = (props) => {
